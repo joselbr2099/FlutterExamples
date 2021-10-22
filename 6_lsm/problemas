@@ -1,0 +1,20 @@
+Listas
+0.- sume los elementos de una lista
+nums = [4, 5, 2, 93, 3, 5]
+1.- cuente cuantos elementos mayores a 3 existen en:
+rainfall_mi = "1.65, 1.46, 2.05, 3.03, 3.35, 3.46, 2.83, 3.23, 3.5, 2.52, 2.8, 1.85"
+
+Cadenas
+1.- Imprima los dos primeros caracteres de una cadena dada por el usuario.
+2.- Imprima los tres últimos caracteres de una cadena dada por el usuario.
+3.- Imprima dicha cadena cada dos caracteres. Ej.: "recta" debería imprimir rca
+
+Maps
+1.- cree un diccionario pais medalla con:
+	United States tiene 70 medallas, Great Britain tiene 38 medallas, China tiene 45 medallas, Russia tiene 30 medallas, y Germany tiene 17 medallas.
+
+2.-agregue 'Phelps' y 35 al siguiente map:
+	swimmers = {'Manuel':4, 'Lochte':12, 'Adrian':7, 'Ledecky':5, 'Dirado':4}
+
+3.- sume +2 a 'Spain' en: 
+	golds = {"Italy": 12, "USA": 33, "Brazil": 15, "China": 27, "Spain": 19, "Canada": 22, "Argentina": 8, "England": 29}
