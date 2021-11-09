@@ -20,15 +20,16 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  
-	late Album album;
+  //se define un atributo de tipo late ya que esta se inicializará mas adelante
+  late Album album;
   String titulo = "";
 
-  void _incrementCounter() async {
-    album = await fetchAlbum();
-    titulo = album.title;
-		setState(() {});
-    
+  //metodo que se ejecuta para obtener el titulo desde el servidor
+  void _getAlbum() async {
+    //async es para que el metodo sea asincrono
+    album = await fetchAlbum(); //se obtiene el album desde el servidor
+    titulo = album.title; //se obtiene el titulo del album
+    setState(() {}); //se actualiza el estado de la aplicacion
   }
 
   @override
@@ -50,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
+        onPressed: _getAlbum,
         tooltip: 'Increment',
         child: Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.

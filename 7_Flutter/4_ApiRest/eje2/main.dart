@@ -21,17 +21,12 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  //se definen atributos
   String postNum = "0";
-  late Post post;
+  late Post post; //tributo de tipo late
   String titulo = '';
   String body = '';
   //String titulo = "";
-
-  /*void _incrementCounter() async {
-    album = await fetchAlbum();
-    setState(() {});
-    titulo = album.title;
-  }*/
 
   void getPost() async {
     post = await fetchPost(postNum);

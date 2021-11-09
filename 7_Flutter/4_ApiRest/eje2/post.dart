@@ -1,13 +1,13 @@
-import 'package:http/http.dart' as conection;
+import 'package:http/http.dart' as conection; //creamos un alias
 import 'dart:convert';
 
+//en esta clase recibimos el parammetro numPost
 Future<Post> fetchPost(String numPost) async {
   final response = await conection
       .get(Uri.parse('https://jsonplaceholder.typicode.com/posts/' + numPost));
 
   if (response.statusCode == 200) {
-    // If the server did return a 200 OK response,
-    // then parse the JSON.
+    //se parsea el json a una lista de mapas
     return Post.fromJson(jsonDecode(response.body));
   } else {
     // If the server did not return a 200 OK response,
