@@ -8,6 +8,7 @@ class Estudiante extends Persona {
   //metodos
   //retorna colegio de estudiante
   String get getColegio => colegio;
+	
   //estable colegio de estudiante
   set setColegio(String colegio) => this.colegio = colegio;
 

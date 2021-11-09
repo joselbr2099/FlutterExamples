@@ -31,9 +31,17 @@ class Perro {
     return edad;
   }
 
+	int getperroEdad(){
+		return edad;
+	}
+
   void set perroEdad(int edad) {
     this.edad = edad;
   }
+
+	setperroEdad(int edad){
+		this.edad=edad;
+	}
 }
 
 void main() {
@@ -45,4 +53,8 @@ void main() {
   print(perro.perroEdad); //de llama al get
   perro.perroEdad = 5;
   print(perro.perroEdad);
+
+	Perro perro2= new Perro("grande");
+	perro2.nombre='mario';
+	print(perro2.nombre);
 }

@@ -5,7 +5,7 @@ class Calculadora{
   int b=0;
 
   //metodos
-  int sumar(a,b){
+  int sumar( a, b){
     this.a=a;
     this.b=b;
     return this.a+this.b;

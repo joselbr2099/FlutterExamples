@@ -1,3 +1,8 @@
+
+
+
+
+
 /*
 2.-agregue 'Phelps' y 35 al siguiente map:
 	swimmers = {'Manuel':4, 'Lochte':12, 'Adrian':7, 'Ledecky':5, 'Dirado':4}

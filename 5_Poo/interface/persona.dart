@@ -1,9 +1,9 @@
 class Persona {
   //atributos en modo private
-  String nombre;
+  String nombre="jose";
 
   //metodos
   saludo() {
-    print("hola soy $_nombre");
+    print("hola soy $nombre");
   }
 }

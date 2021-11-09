@@ -1,10 +1,13 @@
-void main(List<String> arguments) {
+void main(
+
+//	List<String> arguments) {
+
   var lista = [1, 2, 3, 5];
   List lista2 = ['hola', 'aqui'];
   var lista3 = <String>[]; //longitud 0
   List<String> lista4; //lista null
   var lista5 = List<int>.filled(5, 0); //lista de tamaño fijo llenado con 0
-  var lista6 = [3, 'r', 6, bool];
+  var lista6 = [3, 'r', 6, true];
 
   //set
   var set1 = {'a', 3, 5, '4'};
@@ -25,9 +28,9 @@ void main(List<String> arguments) {
 
   //forma2 usando funcion anonima
   lista1.forEach(
-  (element) {
-    print(element);
-  }
+		(element) {
+			print(element);
+		}
   );
 
   //forma 3

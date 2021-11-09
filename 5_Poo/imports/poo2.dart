@@ -1,4 +1,5 @@
 import 'estudiante.dart';
+import 'persona.dart';
 
 void main() {
   //instancia de clasej persona
@@ -7,6 +8,7 @@ void main() {
   print(per.nombre);
   per.sexo='masculino';
   print(per._nombre);
+	print(per.sexo);
 
   //nueva instancia de clase estudiante
   Estudiante est = Estudiante();

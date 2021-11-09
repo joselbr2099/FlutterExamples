@@ -1,5 +1,6 @@
 //clase para un instituto
 class Instituto {
+
   //atrubutos
   String _nombre;
 

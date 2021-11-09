@@ -37,18 +37,21 @@ void main() {
   print('funcion varFunc $res');
 
   //tambien puede usarse para varias expresiones(funcion anonima)
-  varFunc = ((a, b) {
+  varFunc = (
+	(a, b) {
     a += b;
     a *= b;
     return a;
-  });
+  }
+);
   res = varFunc(a, b);
   print('funcion varFunc $res');
 }
 
 //funcion que suma dos numeros
 int suma(a, b) {
-  return a + b;
+	//int aux=a+b;
+  return a+b;
 }
 
 //procedimiento que suma dos numeros
@@ -74,7 +77,7 @@ int suma5(int a, int b) {
 
 //se puede nombrar los parametros
 //se puede especificar los tipos de datos en la funcion/procedimiento
-int suma6({int numa, int numb}) {
+int suma6( {int numa, int numb} ) {
   //tambien: int suma6(x,int c,{int numa, int numb}) {...}
   return (numa + numb);
 }

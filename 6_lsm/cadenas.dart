@@ -10,6 +10,7 @@ void main() {
 
   //recorrido
   print('recorrido');
+
   //se puede convertir la cadena a lista para usar forEach
   cadena1.split('').forEach(print);
   
@@ -17,8 +18,10 @@ void main() {
   for (var caracter in cadena1.split('')) {
     print(caracter);
   }
-print('recorrido3');
-  for (var i = 0; i < cadena1.length; i++) {
+
+	print('recorrido3');
+  
+	for (var i = 0; i < cadena1.length; i++) {
     print(cadena1[i]);
   }
 

@@ -7,7 +7,7 @@ void main(){
     if(a>c){
       print("a es el mayor");
     }
-  }else{
+  }else {
     if(b>c){
       print("b es el mayor");    
     }else{

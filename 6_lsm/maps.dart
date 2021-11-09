@@ -17,9 +17,11 @@ void main() {
   map1['a'] = 666;
 
   //recorrido
-  map2.forEach((key, value) {
-    print(key + '=' + value.toString());
-  });
+  map2.forEach(
+		(key, value) {
+    	print(key + '=' + value.toString());
+  	}
+	);
 
   //usando for
   for (var key in map2.keys) {

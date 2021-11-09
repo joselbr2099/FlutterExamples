@@ -7,11 +7,11 @@ void main(List<String> arguments) {
   dynamic c = 6;
 
   //incremento
-  b += a; //igual a b=b-1
+  b += a; //igual b=b+a
   print("b+=a ${b}");
 
   //decremento
-  c -= a; //igual a c=c-1
+  c -= a; //igual a c=c-a
   print("c-=a ${c}");
 
   //multiplicacion
@@ -34,12 +34,39 @@ void main(List<String> arguments) {
   //decremento en una unidad antes de la impresion
   print("--a ${--a}"); //antes de la impresion a=1
 
+	//expresiones de comparación
+	/*
+	
+	a==b a es igual que b
+	a>b a es mayor que b
+	a<b a es menor que b
+	a!=b a es distinto de b
+	a>=b a es mayor igual que b
+	a<=b a es menor igual que b
+	'hola'=='jose'  la cadena 'hola' es igual a la cadena 'jose'
+
+	ciclo infinito
+	
+	while(true){
+		print("al infinito");
+	}
+
+	do{
+		print("al infinito");
+	}while(true)
+
+	*/
+
   //estructura if
   if (a > 0) {
     print("a es mayor que cero");
   } else {
     print("a no es mayor que cero");
   }
+
+	if (a > 0) {
+    print("a es mayor que cero");
+  } 
 
   //estructura if en una sola linea
   a > 0 ? print("a es mayor que cero") : print("a no es mayor que cero");
@@ -51,7 +78,7 @@ void main(List<String> arguments) {
     print("a es mayor que cero");
   } else if (a == 0) {
     print("a no es igual a cero");
-  } else {
+  } else if (a>6){
     print("a es distinto de cero");
   }
 

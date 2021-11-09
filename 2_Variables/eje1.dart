@@ -8,6 +8,7 @@ void main() {
   String name2 = 'Smith';
   int num = 10;
   dynamic x = "tom";
+	const PI=3.14;
 
   //declaracion de constantes
   const pi = 3.14;

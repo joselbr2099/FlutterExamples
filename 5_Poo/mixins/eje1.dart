@@ -5,6 +5,7 @@ void main() {
   Auxiliar aux = Auxiliar();
   aux.setMateria = 'calculo';
   aux.setInstNombre = 'UMSA';
+	
   aux.setInstitucion = aux.getInstNombre;
   print(aux.getMateria);
   print(aux.getInstNombre);

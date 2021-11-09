@@ -6,9 +6,9 @@ void main() {
 }
 
 //la variable a en esta funcion es otra variable
-suma(a) {
-  ++a;
-  print("a en el procedimiento $a"); //se suma 1 a la variable
+suma(aux) {
+  ++aux;
+  print("a en el procedimiento $aux"); //se suma 1 a la variable
 }
 
 suma2(a) {
