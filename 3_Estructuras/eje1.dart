@@ -1,5 +1,6 @@
 import 'dart:io';
 
+//ejemplo de como leer datos por consola
 void main(){
   print("numero a:");
   int a=int.parse(stdin.readLineSync());
